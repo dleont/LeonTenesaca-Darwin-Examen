@@ -68,7 +68,7 @@ body{
     width: 60%;
 }
 
-.img_restaurante{
+.img_libreria{
     margin-left: 10px;
     margin-right: 10px;
     float: left;
@@ -114,7 +114,7 @@ input{
     font-weight: bold;
 }
 
-.img_sala{
+.img_centro{
     clear: both;
     display: block;
     margin-top: 50px;
@@ -122,4 +122,10 @@ input{
     height: 300px;
     width: 1000px;
     max-width: 100%;
+}
+
+#Pie{
+    margin-top: 50px;
+    margin:0 auto;
+    color: burlywood; 
 }
