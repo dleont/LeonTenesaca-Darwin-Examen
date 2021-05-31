@@ -46,6 +46,7 @@
                     <br><br>
                     <input class="boton" type="submit" id="crear" name="crear" value="Agregar Capitulo" />
                     <input class="boton" type="reset" id="cancelar" name="cancelar" value="Cancelar" />
+                    <input type="button" value="Inicio" onclick="location.href='index.html'">
                     <br><br>
                     </form>
                     </html>

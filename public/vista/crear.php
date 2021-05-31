@@ -4,11 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href=../css/reglas.css />
+    
     <title>Libro </title>
 </head>
 
 <body>
     <header>
+    
+    </header>
+
     <nav class="menu">
         <h3 class="titulo_menu">Menu</h3>
         <ul>
@@ -16,8 +20,7 @@
             <li><a href="listar_libros.html">Listar Libros</a></li>
         </ul>
     </nav>
-    </header>
-
+    
     <div class="logo">
         <img class=img_logo src="../img/librerias.jpg" alt="Logo de libreria">
     </div>

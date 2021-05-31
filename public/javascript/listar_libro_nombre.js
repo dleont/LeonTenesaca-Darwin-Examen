@@ -1,6 +1,6 @@
-function listarPedidoComida() {
+function listarLibroAutor() {
     console.log("Entro");
-    var tarjeta = document.getElementById("comida1").value;
+    var tarjeta = document.getElementById("aut").value;
     console.log(tarjeta);
     if (tarjeta == "") {
         document.getElementById("informacion2").innerHTML = "";
@@ -18,7 +18,7 @@ function listarPedidoComida() {
                 document.getElementById("informacion2").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","../../../admin/controlador/listarComidaPedido.php?tarjeta="+tarjeta,true);
+        xmlhttp.open("GET","../../../admin/controlador/listarLibroAuto.php?tarjeta="+tarjeta,true);
         xmlhttp.send();
     }
     return false;

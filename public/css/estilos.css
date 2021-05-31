@@ -83,3 +83,10 @@ h1 {
   margin-right: 15%;
 
 }
+
+.menu{
+  border: 2px solid black;
+  float: left;
+  width: 20%;
+  margin: 5px;   
+}

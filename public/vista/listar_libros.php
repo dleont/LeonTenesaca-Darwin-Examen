@@ -10,11 +10,8 @@
 
 <body>
 
-    <center>
-        <h1>LISTAR LIBROS ALMACENADOS</h1>
-    </center>
-
-    
+        <h3>LISTAR LIBROS ALMACENADOS</h3>
+       
         <?php
         include '../../config/conexionBD.php';
         $sql = "SELECT * FROM libro";
@@ -91,14 +88,6 @@
         <a class="volver" href="index.html">Volver</a>
     </table>
     
-    <footer>
-        Jose Guillermo Quinde Delgado&#8226; Universidad Politecnica Salesiana, <a href="https://mail.google.com/mail/u/0/#inbox">jquinded@est.ups.edu.ec</a> &#8226;
-        <a href=”0991352595”> 0991352595 </a>
-        <br>© Todos los derechos reservados<br>
-
-        <br>
-
-    </footer>
 </body>
 
 </html>

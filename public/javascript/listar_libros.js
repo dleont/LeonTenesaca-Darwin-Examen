@@ -50,7 +50,7 @@ function buscarTarjeta() {
     return false;
 }
 
-function buscarPorComida() {
+function buscarPorNombre() {
     var comida = document.getElementById("comida").value;
     if (comida == "") {
         document.getElementById("informacion").innerHTML = "";
@@ -68,7 +68,7 @@ function buscarPorComida() {
             document.getElementById("informacion").innerHTML = this.responseText;
         }
     };
-    xmlhttp.open("GET","../../admin/controlador/listar_pedidos.php?comida="+comida+"&tarjeta="+"",true);
+    xmlhttp.open("GET","../../admin/controlador/listar_libros.php?comida="+comida+"&tarjeta="+"",true);
     xmlhttp.send();
     }
     
