@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Crear Libro</title>
+        <link rel="stylesheet" type="text/css" href="../css/crear_libro.css" />
+        <meta charset="utf-8" />
+    </head>
+    <body id="cuerpo">
+        <div class="contenedor">
+            <header id="cabecera">
+                <nav class="menu">
+                    <h3 class="titulo_menu">Menu</h3>
+                    <ul>
+                        <li><a href="index.html">Menu</a></li>
+                        <li><a href="listar_libros.html">Listar Libros</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="logo">
+                <img class=img_logo src="../img/librerias.jpg" alt="Logo de libreria">
+            </div>
+            <div class="separador">
+                <h2>Libro </h2>
+            </div>
+            <div class="cont_for">
+                <form id="formulario01" method="POST" onsubmit="" action="../../admin/controlador/crear_libro.php">
+                    <label>&#8226; Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" value="" placeholder="Ingrese el título del libro" />   
+                    <label>&#8226; ISBN:</label>
+                    <input type="text" id="isbn" name="isbn" value="" placeholder="Ingrese el ISBN del libro">
+                    <!--<label>Cliente:</label>
+                    <input type="text" id="nombreCli" name="nombreCli" />-->
+                    <label>&#8226; Número de páginas:</label>
+                    <input type="text" id="num_paginas" name="num_paginas" value="" placeholder="Ingrese el número de páginas del libro" />
+
+                    <input id="siguiente" type="submit" value="Agregar Libro"/>
+                    <input id="cancelar" type="button" value="Cancelar" onclick="location.href='index.html'" />
+                    <div></div>
+                
+                </form>
+            </div>
+            <div class="imagenes1">
+                <img class="img_lector" src="../img/lector.jpg" alt="Lector">
+                <img class="img_libro" src="../img/libro.jpg" alt="Libro">
+            </div>
+        </div>
+    </body>
+</html>
