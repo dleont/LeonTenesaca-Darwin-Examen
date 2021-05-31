@@ -13,7 +13,6 @@ body{
     border: 2px solid black;
     max-width: 100%;
     box-shadow: 0 0 20px 1px rgba(0,0,0,.5);
-    max-width: 100%;
 }
 
 #cabecera1{
@@ -34,7 +33,7 @@ body{
     width: 70%
 }
 
-.img_centro{
+.img_logo{
     margin-top: 3px;
     margin-left: 40px;
     width: 850px;
@@ -52,7 +51,7 @@ body{
     text-align: center;
 }
 
-.cont_for{
+.cont_form{
     clear: both;
     float: left;
     width: 40%;
@@ -61,44 +60,52 @@ body{
     border: 7px groove white;
 }
 
+.imagenes{
+    clear: both;
+    margin-left: 63px;
+    float: left;
+    width: 52%;
+    max-width: 100%;
+}
+
+.img_libro1{
+    float: left;
+    width: 320px;
+    height: 210px;
+    max-width: 100%;
+}
+.img_libro2{
+    float: left;
+    width: 320px;
+    height: 210px;
+    max-width: 100%;
+}
+.img_libro3{
+    float: left;
+    width: 320px;
+    height: 210px;
+    max-width: 100%;
+}
+
+.img_libro4{
+    float: left;
+    width: 320px;
+    height: 210px;
+    max-width: 100%;
+}
 
 label{
     display: block;
     font-weight: bold;
 }
 input{
-    margin: 4px;
+   margin: 4px;
     width: 95%;
     border-radius: 15px;
     cursor: pointer;
     font-weight: bold;
 }
 
-input.siguiente , input.cancelar{
-    width: 50%;
-}
-
 table, tr, th,td{
     border: 1px solid black;
-}
-
-.imagenes1{
-    float: left;
-    width: 50%;
-}
-
-.img_lector{
-    display: block;
-    width: 500px;
-    height: 200px;
-    margin: 0 auto;
-}
-
-.img_libro {
-    clear: both;
-    display: block;
-    width: 500px;
-    height: 200px;
-    margin: 0 auto;
-    
 }
