@@ -88,7 +88,8 @@
 
         
         <br>   <br>
-        <a class="volver" href="../vista/index.html">Volver</a>
+        
+        <input type="button" value="Inicio" onclick="location.href='../vista/index.html'">
     </table>
     
 </body>
