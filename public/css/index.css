@@ -1,0 +1,125 @@
+body{
+    background-image: url(../img/libreria3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor{
+    margin: 0 auto;
+    width: 88%;
+    border: 2px solid black;
+    max-width: 100%;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,.5);
+
+}
+
+#cabecera{
+    clear: both;
+}
+.menu{
+    border: 2px solid black;
+    float: left;
+    width: 20%;
+    margin: 5px;
+    max-width: 100%;   
+}
+
+.titulo_menu{
+    background-color: gray;
+    color: white;
+}
+
+.logo{
+    float: left;
+    width: 70%
+}
+
+.img_logo{
+    margin-top: 3px;
+    margin-left: 40px;
+    width: 850px;
+    height: 100px;
+    max-width: 100%;
+}
+#cabecera1{
+    clear: both;
+    margin-top: 25px;
+    display: block;
+    background-color:burlywood;
+}
+
+.separador{
+    clear: both;
+    margin-top: 25px;
+    display: block;
+    background-color:burlywood;
+}
+
+.separador h2{
+    text-align: center;
+}
+
+.introduccion{
+    clear: both;
+    float: left;
+    width: 60%;
+}
+
+.img_restaurante{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    width: 40%;
+}
+
+.opciones{
+    margin: 10px;
+    border: 5px groove white;
+    float: left;
+    width: 35%;
+    max-width: 100%;
+}
+
+section h2 {
+    background-color: burlywood;
+    font-weight: bold;
+}
+
+.botones{
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    max-width: 100%;
+}
+
+input{
+    margin: 5px;
+    width: 90%;
+    height: 35px;
+    max-width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cont_img1{
+    clear: both;
+    
+}
+.cont_img1 h2{
+    margin-top: 30px;
+    background-color: burlywood;
+    font-weight: bold;
+}
+
+.img_sala{
+    clear: both;
+    display: block;
+    margin-top: 50px;
+    margin:0 auto;
+    height: 300px;
+    width: 1000px;
+    max-width: 100%;
+}
