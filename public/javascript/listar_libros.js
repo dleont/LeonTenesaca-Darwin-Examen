@@ -1,33 +1,8 @@
-function buscarPorTarjeta() {
-    var tarjeta = document.getElementById("tarjeta").value;
-    if (tarjeta == "") {
-        document.getElementById("informacion").innerHTML = "";
-    } else {
-        if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            //alert("llegue");
-            document.getElementById("informacion").innerHTML = this.responseText;
-        }
-    };
-    xmlhttp.open("GET","../../admin/controlador/listar_pedidos.php?tarjeta="+tarjeta+"&comida="+"",true);
-    xmlhttp.send();
-    }
-
-    return false;
-}
-
-function listarPedidoComida() {
+function listarLibroAutor() {
     console.log("Entro");
-    var tarjeta = document.getElementById("comida1").value;
-    console.log(tarjeta);
-    if (tarjeta == "") {
+    var libro = document.getElementById("aut").value;
+    console.log(libro);
+    if (libro == "") {
         document.getElementById("informacion2").innerHTML = "";
     } else {
         if (window.XMLHttpRequest) {
@@ -43,7 +18,7 @@ function listarPedidoComida() {
                 document.getElementById("informacion2").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","../../admin/controlador/listarComidaPedido.php?tarjeta="+tarjeta,true);
+        xmlhttp.open("GET","../../admin/controlador/listarLibroAutor.php?libro="+libro,true);
         xmlhttp.send();
     }
     return false;

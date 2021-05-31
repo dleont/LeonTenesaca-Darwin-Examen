@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset='utf-8'>
+    <title>Listado de libros</title>
+    <link rel="stylesheet" type="text/css" href="../css/listar_libros.css" />
+    <script src="../javascript/listar_libros.js"></script>
+    </head>
+
+    <body>
+        <div class="contenedor">
+            <header id="cabecera">
+                <nav class="menu">
+                    <h3 class="titulo_menu">Menu</h3>
+                    <ul>
+                        <li><a href="../vista/crear_libro.html">Crear Libro</a></li>
+                        <li><a href="../vista/index.html">Menu</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="logo">
+                <img class=img_logo src="../img/librerias.jpg" alt="Logo de libreria">
+            </div>
+            <div class="separador">
+                <h2>Listar</h2>
+            </div>
+         
+            <div id="titulo2">
+                <form class="formulario02">
+                    <h2 class="titulo_h2">Listar por Nombre de Autor</h2>
+                    <input type="text" id="aut" name="aut" value="">
+                    <input type="button" id="buscar" name="buscar" value="BuscarAutor" onclick="listarLibroAutor()">
+                    <input type="button" id="cancelar" name="cancelar" value="Cancelar" onclick="location.href='index.html'">
+                </form>
+                <div id="informacion2"></div>
+            </div>
+        </div>
+    </body>
+
+</html>
